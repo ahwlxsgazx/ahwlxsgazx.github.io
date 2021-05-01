@@ -1,0 +1,87 @@
+﻿ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+.active {
+    background-color: #4CAF50;
+}
+
+p {
+    line-height: 1.5em;
+    text-align: justify;
+    padding-top: 1em;
+    font-family: Noto Sans KR;
+}
+
+h2 {
+    font-size: 72px;
+    text-align: center;
+    padding: 100px;
+    font-family: Libre Baskerville;
+}
+
+img.pic {
+    width: 100%;
+}
+
+.tp {
+    min-height: 700px;
+    background-image: url(../img/churchill-house-38.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kkk {
+    min-height: 800px;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: black;
+    text-align: center;
+}
+
+.wrapper {
+    background: white;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0px;
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+footer {
+    background: pink;
+    height: 200px;
+    text-align: left;
+}
