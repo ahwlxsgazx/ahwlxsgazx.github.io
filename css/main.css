@@ -1,4 +1,4 @@
-﻿ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -31,17 +31,38 @@ p {
     text-align: justify;
     padding-top: 1em;
     font-family: Noto Sans KR;
+    font-size: 24px;
+}
+h1 {
+    font-size: 56px;
+    text-align: center;
+    padding: 20px;
+    font-family: Libre Baskerville;
+}
+h5 {
+    line-height: 1.5em;
+    text-align: justify;
+    padding-top: 1em;
+    font-family: Noto Sans KR;
+    text-align: center;
+    font-size: 36px;
 }
 
 h2 {
-    font-size: 72px;
+    font-size: 44px;
     text-align: center;
-    padding: 100px;
+    padding: 20px;
     font-family: Libre Baskerville;
 }
-
-img.pic {
-    width: 100%;
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+h4 {
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    font-family: Libre Baskerville;
 }
 
 .tp {
@@ -53,22 +74,25 @@ img.pic {
 }
 
 .kkk {
-    min-height: 800px;
-    background-image: url(../img/bg.jpg);
+    min-height: 900px;
+    background-image: url(../img/student.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 0.2;
+    opacity: 0.3;
 }
+
+
 
 .center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 100px;
+    font-size: 80px;
     color: black;
     text-align: center;
+    font-family: Libre Baskerville;
 }
 
 .wrapper {
@@ -80,8 +104,137 @@ img.pic {
     margin: 0 auto;
 }
 
+.wrapper2 {
+    background: white;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0px;
+    padding-top: 0;
+    margin: 0 auto;
+    justify-content: center;
+}
 footer {
     background: pink;
-    height: 200px;
+    height: 230px;
     text-align: left;
+}
+img.picture {
+    border-radius: 50%;
+    position: center;
+ 
+}
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: whitesmoke;
+    background-color: coral;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px gray;
+}
+.space {
+    padding: 50px 50px;
+    text-align: center;
+}
+.fot {
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+    font-family: Libre Baskerville;
+}
+
+/* box*/
+.content {
+    padding: 8%;
+    flex: 1 1 80%;
+    min-height: 150px;
+   text-align:center;
+}
+.box-item {
+    background-color: white;
+    display: flow-root;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.box2 {
+    display: grid;
+    height: 350px;
+    padding-bottom: 0px;
+    grid-template-rows: repeat(6,20%);
+    grid-template-columns: repeat(6,18%);
+    grid-gap: 80px;
+    transform: translate( -15%);
+}
+.box-item.one2 {
+    grid-row: span 2;
+    grid-column: span 2;
+   
+}
+.box-item.two2 {
+    grid-row: span 2 ;
+    grid-column: span 2;
+}
+.box-item.three2 {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.box {
+    display: grid;
+    height: 400px;
+    padding-bottom: 0px;
+    grid-template-rows: repeat(2,20%);
+    grid-template-columns: repeat(2,18%);
+    grid-gap: 80px;
+    transform: translate( -15%);
+}
+.box-item.one {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+
+
+@media only screen and (max-width: 414px) {
+    .center 
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        font-family: Libre Baskerville;
+    }
+    .kkk {
+        min-height: 680px;
+        background-image: url(../img/student.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.3;
+    }
+    h5 {
+        line-height: 1.5em;
+        text-align: justify;
+        padding-top: 1em;
+        text-align: center;
+        font-size:23px;
+    }
+   
 }
