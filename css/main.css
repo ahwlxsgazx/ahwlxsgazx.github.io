@@ -79,7 +79,7 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 0.3;
+    opacity: 0.6;
 }
 
 
@@ -227,7 +227,7 @@ img.picture {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        opacity: 0.3;
+       
     }
     h5 {
         line-height: 1.5em;
