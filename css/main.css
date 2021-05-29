@@ -108,7 +108,7 @@ h4 {
     background: white;
     width: 70%;
     box-sizing: border-box;
-    padding: 0px;
+    padding: 100px;
     padding-top: 0;
     margin: 0 auto;
     justify-content: center;
@@ -129,7 +129,7 @@ img.picture {
     margin-right: auto;
     width: 50%;
 }
-.xrk {
+.activity {
     min-height: 500px;
     background-image: url(../img/hd.jpg);
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@ img.picture {
     box-shadow: 0 9px gray;
 }
 .space {
-    padding: 50px 50px;
+    padding: 25px 40px;
     text-align: center;
 }
 .fot {
