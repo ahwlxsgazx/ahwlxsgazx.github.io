@@ -130,8 +130,8 @@ img.picture {
     width: 50%;
 }
 .xrk {
-    min-height: 500px;
-    background-image: url(../img/student.jpg);
+    height: 500px;
+    background-image: url(../img/hd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
