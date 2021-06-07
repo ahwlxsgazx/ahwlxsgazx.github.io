@@ -270,5 +270,11 @@ img.gwzp {
         text-align: center;
         font-size:23px;
     }
-   
+   .gwdes {
+        font-size: 14px;
+    }
+    img.gwzp {
+        width: 150px;
+     
+    }
 }
