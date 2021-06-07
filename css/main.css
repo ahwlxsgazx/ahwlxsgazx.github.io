@@ -113,9 +113,18 @@ h4 {
     margin: 0 auto;
     justify-content: center;
 }
+.wrapper3 {
+    background: white;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0px;
+    padding-top: 0;
+    margin: 0 auto;
+    justify-content: center;
+}
 footer {
     background: pink;
-    height: 230px;
+    height: 250px;
     text-align: left;
 }
 img.picture {
@@ -123,14 +132,18 @@ img.picture {
     position: center;
  
 }
+img.gwzp {
+    width: 200px;
+    position: center;
+}
 .picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-.xrk {
-    height: 500px;
+.activity {
+    min-height: 500px;
     background-image: url(../img/hd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -161,12 +174,25 @@ img.picture {
     font-family: Libre Baskerville;
 }
 
+.gwtt {
+    font-size: 48px;
+    text-align: center;
+    padding-top:20px;
+    font-family: Libre Baskerville;
+}
+.gwdes {
+    line-height: 1.5em;
+    padding-top: 50px;
+    font-family: Noto Sans KR;
+    text-align:center;
+    font-size: 17px;
+}
 /* box*/
 .content {
     padding: 8%;
     flex: 1 1 80%;
     min-height: 150px;
-   text-align:center;
+    text-align: center;
 }
 .box-item {
     background-color: white;
@@ -213,6 +239,7 @@ img.picture {
     grid-row: span 2;
     grid-column: span 2;
 }
+
 
 
 
