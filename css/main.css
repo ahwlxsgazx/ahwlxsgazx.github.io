@@ -270,11 +270,25 @@ img.gwzp {
         text-align: center;
         font-size:23px;
     }
-   .gwdes {
-        font-size: 14px;
+       .gwdes {
+        font-size: 12px;
+        padding-top: 0px;
     }
     img.gwzp {
         width: 150px;
      
+    }
+    .box2 {
+        display: grid;
+        height: 250px;
+        padding-bottom: 0px;
+        grid-template-rows: repeat(6,5%);
+        grid-template-columns: repeat(6,20%);
+        grid-gap: 80px;
+        transform: translate( -60%);
+    }
+    .gwtt {
+        font-size: 28px;
+    
     }
 }
