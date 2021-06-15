@@ -240,6 +240,26 @@ img.gwzp {
     grid-column: span 2;
 }
 
+.box3 {
+    display: grid;
+    height: 350px;
+    padding-bottom: 0px;
+    grid-template-rows: repeat(6,20%);
+    grid-template-columns: repeat(6,18%);
+    grid-gap: 80px;
+    transform: translate( 0%);
+}
+
+.box4 {
+    display: grid;
+    height: 650px;
+    padding-bottom: 0px;
+    grid-template-rows: repeat(6,20%);
+    grid-template-columns: repeat(6,18%);
+    grid-gap: 80px;
+    transform: translate(+25%);
+}
+
 
 
 
