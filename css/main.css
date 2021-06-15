@@ -315,8 +315,11 @@ img.news {
     .gwtt {
         font-size: 28px;
     
+   img.news {
+        width: 200px;
+        position: center;
     }
-        .box3 {
+    .box3 {
         display: grid;
         height: 350px;
         padding-bottom: 0px;
