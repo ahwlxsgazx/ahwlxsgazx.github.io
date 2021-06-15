@@ -249,6 +249,11 @@ img.gwzp {
     grid-gap: 80px;
     transform: translate( 0%);
 }
+img.news {
+    width: 400px;
+    position: center;
+}
+
 
 .box4 {
     display: grid;
