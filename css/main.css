@@ -316,4 +316,22 @@ img.news {
         font-size: 28px;
     
     }
+        .box3 {
+        display: grid;
+        height: 350px;
+        padding-bottom: 0px;
+        grid-template-rows: repeat(2,20%);
+        grid-template-columns: repeat(2,18%);
+        grid-gap: 10px;
+        transform: translate( 0%);
+    }
+    .box4 {
+        display: grid;
+        height: 400px;
+        padding-top: 0px;
+        grid-template-rows: repeat(2,20%);
+        grid-template-columns: repeat(2,18%);
+        grid-gap: 80px;
+        transform: translate(0%);
+    }
 }
