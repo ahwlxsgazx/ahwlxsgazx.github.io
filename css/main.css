@@ -65,17 +65,11 @@ h4 {
     font-family: Libre Baskerville;
 }
 
-.tp {
-    min-height: 700px;
-    background-image: url(../img/churchill-house-38.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 
 .kkk {
     min-height: 900px;
-    background-image: url(../img/student.jpg);
+    background-image: url(../img/bj.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -240,6 +234,16 @@ img.gwzp {
     grid-column: span 2;
 }
 
+.logo {
+    font-size: 30px;
+}
+img.lg {
+    top: 16%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    position: absolute;
+}
 .box3 {
     display: grid;
     height: 350px;
@@ -249,11 +253,6 @@ img.gwzp {
     grid-gap: 80px;
     transform: translate( 0%);
 }
-img.news {
-    width: 400px;
-    position: center;
-}
-
 
 .box4 {
     display: grid;
@@ -265,7 +264,23 @@ img.news {
     transform: translate(+25%);
 }
 
-
+img.news {
+    width: 400px;
+    position: center;
+}
+.box5 {
+    display: grid;
+    height: 600px;
+    padding-bottom: 0px;
+    grid-template-rows: repeat(6,20%);
+    grid-template-columns: repeat(6,18%);
+    grid-gap: 80px;
+    transform: translate(0%);
+}
+img.hanfu {
+    width: 400px;
+    position: center;
+}
 
 
 @media only screen and (max-width: 414px) {
@@ -295,7 +310,7 @@ img.news {
         text-align: center;
         font-size:23px;
     }
-       .gwdes {
+    .gwdes {
         font-size: 12px;
         padding-top: 0px;
     }
@@ -315,7 +330,8 @@ img.news {
     .gwtt {
         font-size: 28px;
     
-   img.news {
+    }
+    img.news {
         width: 200px;
         position: center;
     }
@@ -337,4 +353,5 @@ img.news {
         grid-gap: 80px;
         transform: translate(0%);
     }
+   
 }
