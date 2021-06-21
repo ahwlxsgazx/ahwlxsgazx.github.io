@@ -185,7 +185,7 @@ img.gwzp {
 .content {
     padding: 8%;
     flex: 1 1 80%;
-    min-height: 150px;
+    min-height: 600px;
     text-align: center;
 }
 .box-item {
@@ -287,7 +287,7 @@ img.hanfu {
     .content {
     padding: 8%;
     flex: 1 1 80%;
-    min-height: 500px;
+    min-height: 600px;
     text-align: center;
 }
     .center 
