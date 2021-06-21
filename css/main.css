@@ -284,6 +284,12 @@ img.hanfu {
 
 
 @media only screen and (max-width: 414px) {
+    .content {
+    padding: 8%;
+    flex: 1 1 80%;
+    min-height: 500px;
+    text-align: center;
+}
     .center 
     {
         position: absolute;
