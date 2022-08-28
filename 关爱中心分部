@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>澳大利亚海外留学生关爱中心</title>
+    <meta name="description" content="An interactive getting started guide for Brackets.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <ul>
+
+            <li><a href="home.html">首页</a></li>
+            <li><a href="detail.html">人员简介</a></li>
+            <li><a href="activity.html">活动</a></li>
+            <li><a href="GW.html">学生顾问</a></li>
+            <li><a href="news.html">实时报道</a></li>
+            <li><a href="hanfu.html">汉服文化</a></li>
+            <li><a href="揭幕.html">揭幕仪式庆典</a></li>           
+            <li><a href="文化宣传.html">文化宣传</a></li>
+            <li><a href="疫情监测.html">疫情监测</a></li>
+            <li><a href="yxwh.html">元宵晚会</a></li>
+                                    <li><a href="dw.html">疫情端午特别报道</a></li>
+                                     <li><a href="关爱中心分部.html"></a></li>
+
+
+
+
+
+        </ul>
+    </header>
+   <p>
+           悉尼分部揭幕仪式<br />
+           
+        澳大利亚首都海外留学生关爱中心悉尼中心成立仪式7月28日在风景秀丽的K House,Woolwich Marina, 2C Margaret St, Woolwich隆重举行。
+         <img src="img/syd1.jpeg" alt="Avatar" style="width:500px" class="picture">
+        <br />
+       <img src="img/j1.jpeg" alt="Avatar" style="width:500px" class="picture">
+        <img src="img/syd2.jpeg" alt="Avatar" style="width:500px" class="picture">
+ <img src="img/syd3.jpeg" alt="Avatar" style="width:500px" class="picture">
+
+澳大利亚首都海外留学生关爱中心由李梦发起，是在澳大利亚政府注册，由海外留学生组成的一个非营利性机构。李梦任关爱中心终身名誉主席，现任主席是KEVIN CAO。
+ <img src="img/syd4.jpeg" alt="Avatar" style="width:500px" class="picture">
+
+李梦在致词中说，大家都叫她梦妈妈，是妈妈就要肩负一份责任。她表示，澳大利亚首都海外留学生关爱中心就是让海外的留学生有归属感，有一个家，而悉尼中心成立，有知心姐姐Wendy Mao的加入促使她要更加努力，也更加坚持她自己的想法，那就是要为留学生多做一些事情。
+
+
+       
+     <br />澳大利亚首都海外留学生关爱中心悉尼中心的首任主席GAVIN LEE现就读于悉尼大学，商业和法律专业。他表示非常荣幸能够成为悉尼中心的首任主席。
+        <img src="img/syd5.jpeg" alt="Avatar" style="width:500px" class="picture">
+ （左起）澳大利亚首都海外留学生关爱中心终身名誉主席李梦、澳大利亚首都海外留学生关爱中心主席KEVIN CAO、澳大利亚首都海外留学生关爱中心悉尼中心的首任主席GAVIN LEE、澳大利亚首都海外留学生关爱中心悉尼中心名誉主席Wendy Mao
+        <img src="img/syd8.jpeg" alt="Avatar" style="width:500px" class="picture">
+
+GAVIN LEE在致词中讲述了自己的一段经历。他说，作为澳大利亚土生土长的ABC，本来对留学生的生活并没有太多的了解，但是前年发生的一件事让我开始关注海外留学生的生活和福祉。当时他的一个澳洲朋友告诉他有个中国留学生很不幸得了脑癌，他孤身一人在澳洲留学，父母急需要办签证来澳洲探望他，而留学生的父母与医生之间的交流也需要得到翻译的帮助。得知这个情况后，GAVIN和父亲积极奔走，帮助那名留学生的父母完成申请获得签证，最后留学生的父母得以在儿子弥留之际见上了一面。
+文:澳大利亚海外留学生关爱中心
+        <img src="img/syd6.jpeg" alt="Avatar" style="width:500px" class="picture">
+        <img src="img/syd7.jpeg" alt="Avatar" style="width:500px" class="picture">
+        <img src="img/syd9.jpeg" alt="Avatar" style="width:500px" class="picture">
+        <img src="img/syd10.jpeg" alt="Avatar" style="width:500px" class="picture">
+        <img src="img/syd11.jpeg" alt="Avatar" style="width:500px" class="picture">
+        <img src="img/syd12.jpeg" alt="Avatar" style="width:500px" class="picture">
+
+    </p>
+   <footer>
+        <div class="fot">
+            可以通过微信进一步与我们联系<br />
+            <img src="img/wx.jpg" class="gwzp">
+        </div>
+    </footer>
+</body>
+</html>
+
